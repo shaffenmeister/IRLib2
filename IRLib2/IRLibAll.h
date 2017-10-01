@@ -34,6 +34,7 @@
 #include <IRLib_P11_RCMM.h>
 #include <IRLib_P12_CYKM.h>
 //include additional protocols here
+#include <IRLib_P13_LegoPF.h>
 #include <IRLibCombo.h>
 #include <IRLibRecv.h>
 #include <IRLibRecvLoop.h>
