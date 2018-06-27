@@ -1,3 +1,22 @@
+Version 2.0.16 May 3, 2018 
+  Support SAMD51 M4 processor on the Adafruit Metro M4. See SAMD51.txt for details.
+Version 2.0.15 April 4, 2018
+  Major rewrite of SAMD21 support makes it easier to add more boards.
+  Updated documentation to include protocol 12 CYKM for keyboard and mouse control.
+  Updated documentation for SAMD21 boards. General reproof reading of entire documentation.
+Version 2.0.14 March 10, 2018 
+  Added support for Arduino MKR 1000. Note IoT_IR example also works with this board. 
+    See SAMD21.txt for details about available output and input pins. Default output pin 6.
+Version 2.0.13 March 9, 2018 
+  Added IoT_IR Internet of Things IR remote example for use with Adafruit Feather M0 Wi-Fi
+Version 2.0.12 February 9, 2018 
+  Fix problems with certain pins on Trinket M0. Problem with Gemma M0 didn't exist.
+    It worked all along but my testing failed.
+    Many thanks to LadyAda for identifying problem.
+Version 2.0.11 January 26, 2018 
+  Added support for Adafruit Trinket M0 and Adafruit Gemma M0 however there are known
+    limitations on certain pin numbers. See SAMD21.txt for details.
+  Includes previously merged fixed to problem with buffer sizes greater than 255
 Version 2.0.10 July 17, 2017 
   Unsigned manager overflow problem in Samsung36
 Version 2.09 July 2, 2017 
